@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "browserify public/js/main.js -o public/js/bundle.js"
   },
   "dependencies": {
     "@watson-virtual-agent/chat-widget": "1.2.0",

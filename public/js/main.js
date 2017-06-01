@@ -396,3 +396,5 @@ function httpPostAsync(url, data, callback) {
   }
   xmlHttp.send(JSON.stringify(data));
 }
+
+alert('checking to make sure browserify worked and the bundle updated');
